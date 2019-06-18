@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Movie Finder!</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_desc">Overview</string>
+    <string name="search_placeholder">avengers</string>
+    <string name="search_hint">Movie title</string>
+    <string name="search">Search</string>
+    <string name="average_vote">Average Vote</string>
+    <string name="voters">Voters</string>
+    <string name="overview">Overview</string>
+
+    <string name="change_language_settings">Change Language Settings</string>
+
+    <string name="favorite_menu">Favorite Menu</string>
+    <string name="favorite">Favorite</string>
+    <string name="appwidget_text">Favorite Movie</string>
+    <string name="add_widget">Add widget</string>
+    <string name="favorite_movie">Favorite Movie</string>
+    <string name="favorite_empty">Favorite List is Empty</string>
+
+    <string name="alarm_setting">Notification Setting</string>
+    <string name="reminder_open_app">Reminder Open App</string>
+    <string name="reminder_release_movie">Reminder Release Movie</string>
+    <string name="reminder_open_app_subtitle">Reminder will be sent at 7:00 am everyday</string>
+    <string name="reminder_release_movie_subtitle">Reminder will be sent at 8:00 am everyday</string>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item android:id="@+id/favorite_menu"
+            android:title="@string/favorite_menu"
+            android:icon = "@drawable/ic_star_white_24dp"
+            app:showAsAction="always" />
+    </group>
+</menu>

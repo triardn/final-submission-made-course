@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <Switch
+        android:id="@+id/reminder_open_app"
+        android:layout_width="275dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/reminder_open_app"
+        android:textColorLink="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/reminder_release_movie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/reminder_release_movie"
+        android:layout_width="275dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="526dp"
+        android:text="@string/reminder_release_movie"
+        android:textColorLink="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminder_open_app" />
+
+    <TextView
+        android:id="@+id/reminder_open_app_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/reminder_open_app_subtitle"
+        app:layout_constraintBottom_toTopOf="@+id/reminder_release_movie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminder_open_app"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <TextView
+        android:id="@+id/reminder_release_movie_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="490dp"
+        android:text="@string/reminder_release_movie_subtitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reminder_release_movie"
+        app:layout_constraintVertical_bias="0.447" />
+
+</android.support.constraint.ConstraintLayout>

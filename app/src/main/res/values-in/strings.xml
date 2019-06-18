@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Movie Finder!</string>
+    <string name="now_playing">Sedang Tayang</string>
+    <string name="upcoming">Akan Datang</string>
+    <string name="movie_title">Judul Film</string>
+    <string name="movie_desc">Sinopsis</string>
+    <string name="search_placeholder">avengers</string>
+    <string name="search_hint">Judul film</string>
+    <string name="search">Cari</string>
+    <string name="average_vote">Nilai Rata-Rata</string>
+    <string name="voters">Pemilih</string>
+    <string name="overview">Sinopsis</string>
+
+    <string name="change_language_settings">Ubah Bahasa</string>
+    <string name="favorite_menu">Menu Favorit</string>
+    <string name="favorite">Favorit</string>
+    <string name="favorite_movie">Film Favorit</string>
+
+    <string name="appwidget_text">Film Favorit</string>
+    <string name="add_widget">Tambah Widget</string>
+    <string name="favorite_empty">Daftar Favorit Kosong</string>
+
+    <string name="alarm_setting">Pengaturan Notifikasi</string>
+    <string name="reminder_open_app">Notifikasi "Buka Aplikasi"</string>
+    <string name="reminder_release_movie">Notifikasi "Rilis Film"</string>
+    <string name="reminder_open_app_subtitle">Notifikasi akan dikirimkan pada jam 7:00 pagi setiap hari</string>
+    <string name="reminder_release_movie_subtitle">Notifikasi akan dikirimkan pada jam 8:00 pagi setiap hari</string>
+</resources>
